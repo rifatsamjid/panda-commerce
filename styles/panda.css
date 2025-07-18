@@ -115,6 +115,61 @@
 }
 
 
+/* categories style */
+.categories-container {
+    margin-top: 70px;
+}
+
+.categories-title {
+    font-weight: 600;
+    font-size: 2.25rem;
+    margin-bottom: 24px;
+}
+
+.categories-item-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+
+}
+
+.categories-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    height: 200px;
+    width: 450px;
+}
+
+
+.item-title {
+    color: white;
+    font-weight: 500;
+    font-size: 2.25rem;
+    padding: 33px 46px;
+}
+
+.item-image {
+    padding: 15px 48px;
+}
+
+
+
+#item-watch {
+    background-color: #FFD019;
+}
+
+
+#item-bag {
+    background-color: #FF136F;
+}
+
+
+#item-shoes {
+    background-color: #3F07F8;
+}
+
 
 
 
@@ -125,6 +180,7 @@
     .banner-container {
         flex-direction: column;
     }
+
     .banner-container {
         gap: 10px;
     }
